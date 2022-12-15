@@ -3,6 +3,7 @@
 <script src = "js/jquery.dataTables.js"></script>
 <script src = "js/nav.js"></script>
 <script src = "js/sidebar.js"></script>
+<script src = "js/sbar.js"></script>
 <script type = "text/javascript">
 	$(document).ready(function() {
 		$('#table').DataTable();
