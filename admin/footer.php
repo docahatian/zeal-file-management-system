@@ -39,7 +39,7 @@
       <h3>Contact us</h3>
       <div class="border1"></div>
         <ul>
-          <li><i class="fa fa-map-marker" aria-hidden="true"></i>Quezon Ave., Brgy.Poblacion 8, Midsayap, Cotabato City</li>
+          <li><i class="fa fa-map-marker" aria-hidden="true"></i> Quezon avenue, Midsayap, 9410 Cotabato</li>
           <li><i class="fa fa-phone" aria-hidden="true"></i>09472516140</li>
           <li><i class="fa fa-envelope" aria-hidden="true"></i>xyz@gmail.com</li>
         </ul> 

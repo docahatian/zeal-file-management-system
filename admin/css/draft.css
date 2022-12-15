@@ -465,10 +465,22 @@ li i {
 /* Thanks to Computer Conversations */
 
 
-.content-container {
-	
-	background-color:  #ffffff;
+#services {	
+	background-color:  #d8e6ad;
 }
+
+#about { 
+	background-color:  #add8e6;
+}
+
+#contact { 
+	background-color:  #e6add8;
+}
+
+#content{
+	background-color:  darkolivegreen;
+}
+
 
 h2 {margin-top: 3em;}
 h3 {margin-bottom: 2em;}

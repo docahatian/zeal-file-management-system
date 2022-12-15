@@ -3,7 +3,8 @@ Following Tania Ruscia's tutorial on creating your own responsive dropdown navig
 -->
 <section class="navigation">
 <div class = "logo">
-    <img src="css/img/zeal.jpg" alt="logo" height = "80px" width = "200px">
+<img src="css/img/tesda.jpeg" alt="logo" height = "80px" width = "80px">
+    <img src="css/img/zeal.jpg" alt="logo" height = "80px" width = "150px">
 	</div>
 
   <div class="nav-container">
@@ -18,7 +19,7 @@ Following Tania Ruscia's tutorial on creating your own responsive dropdown navig
         <!-- Setting the links to #! will ensure that no action takes place on click. -->
         <li><a href="home.php">Home</a></li>
         <li><a href="#!">About</a></li>
-        <li><a href="#!">Courses Offered</a>
+        <li><a href="#!">Tech-Voc Courses Offered</a>
           <ul class="nav-dropdown">
             <li><a href="#!">SMAW NCII</a></li>
             <li><a href="#!">Machining NCII</a></li>

@@ -4,7 +4,7 @@
 <body>
    <?php include ('nav_home.php')?>
 	 
-<div class = container > <!--end  container  ------->
+<div class = content-container> <!--end  container  ------->
 	<div id = "content">
 		<br /><br /><br />
 		<div class="alert alert-info"><h3>Users</h3></div> 
