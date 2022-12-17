@@ -10,18 +10,6 @@
       </p>
     </div>
 
-    <!--  for quick links  -->
-    <div class="footer-items">
-      <h3>Quick Links</h3>
-      <div class="border1"></div> <!--for the underline -->
-        <ul>
-          <a href="#"><li>Home</li></a>
-          <a href="#"><li>Search</li></a>
-          <a href="#"><li>Contact</li></a>
-          <a href="#"><li>About</li></a>
-        </ul>
-    </div>
-
 
 <!--  for some other links -->
     <div class="footer-items">
