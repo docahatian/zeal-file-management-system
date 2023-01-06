@@ -17,13 +17,13 @@ Following Tania Ruscia's tutorial on creating your own responsive dropdown navig
       </div>
       <ul class="nav-list">
         <!-- Setting the links to #! will ensure that no action takes place on click. -->
-        <li><a href="#!">Home</a></li>
-        <li><a href="#!">About</a></li>
+        <li><a href="index.php">Home</a></li>
+        <li><a href="# about">About</a></li>
         
          <li><a href="#!">Tech-Voc Courses Offered</a>
           <ul class="nav-dropdown">
-            <li><a href="#!">SMAW NCII</a></li>
-            <li><a href="#!">Machining NCII</a></li>
+            <li><a href="coppy smaw .php !">SMAW NCII</a></li>
+            <li><a href="coppy machine.php!">Machining NCII</a></li>
           </ul>
         </li>
         <li><a href="#!">Contact</a></li>

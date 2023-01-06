@@ -7,14 +7,14 @@ $breakpoint determines at which width the media query breakpoint will take effec
 
   body {
 	
-	/* Full height background-image:url("img/back.jpg");  */
+	/* Full height background-image: "img/back.jpg";   */
 	height: 100%;
-
+	background-color: #588ad0;
 	/* Center and scale the image nicely 
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-color: #63D6E0;
+	
    */
   
 }
@@ -213,7 +213,7 @@ h2 {
 	}
 	
 	#login-form-wrap {
-	  background-color: #fff;
+	  background-color: rgb(52, 29, 227);
 	  opacity: 0.9 ;
 	  width: 35%;
 	  margin: 30px auto;
@@ -463,11 +463,15 @@ li i {
 
 /* you can toggle the media screen view accordingly by changing the (max-width: px) to your convenience */
 
-/* Thanks to Computer Conversations */
+
+
+
+/* For conten css  */
 
 
 #services {	
 	background-color:  #d8e6ad;
+	
 }
 
 #about { 
@@ -480,15 +484,18 @@ li i {
 
 #content{
 	background-color:  darkolivegreen;
+	
 }
 
 
-h2 {margin-top: 3em;}
-h3 {margin-bottom: 2em;}
+h2 {margin-top: 3em;
+    text-align: center;
+}
+h3 {margin-bottom: 2em;
+	justify-content: center;
+}
 
 
 
-
-	
 
 

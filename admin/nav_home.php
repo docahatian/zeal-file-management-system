@@ -25,8 +25,8 @@ Following Tania Ruscia's tutorial on creating your own responsive dropdown navig
         <li><a href="#about">About</a></li>
         <li><a href="#!">Tech-Voc Courses Offered</a>
           <ul class="nav-dropdown">
-            <li><a href="#!">SMAW NCII</a></li>
-            <li><a href="#!">Machining NCII</a></li>
+            <li><a href="smaw.php">SMAW NCII</a></li>
+            <li><a href="machine.php">Machining NCII</a></li>
           </ul>
         </li>
          <li><a href="#!">Account</a>

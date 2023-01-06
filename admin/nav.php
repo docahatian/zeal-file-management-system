@@ -1,6 +1,4 @@
-<!-- 
-Following Tania Ruscia's tutorial on creating your own responsive dropdown navigation bar. https://www.taniarascia.com/responsive-dropdown-navigation-bar/
--->
+
 <section class="navigation">
 <div class = "logo">
 <img src="css/img/tesda.jpeg" alt="logo" height = "80px" width = "80px">
@@ -18,7 +16,7 @@ Following Tania Ruscia's tutorial on creating your own responsive dropdown navig
       <ul class="nav-list">
         <!-- Setting the links to #! will ensure that no action takes place on click. -->
         <li><a href="home.php">Home</a></li>
-        <li><a href="#!">About</a></li>
+        <li><a href="#about">About</a></li>
         <li><a href="#!">Tech-Voc Courses Offered</a>
           <ul class="nav-dropdown">
             <li><a href="smaw.php">SMAW NCII</a></li>
@@ -26,7 +24,7 @@ Following Tania Ruscia's tutorial on creating your own responsive dropdown navig
           </ul>
         </li>
          
-        <li><a href="#!">Contact</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </div>
