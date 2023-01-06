@@ -3,6 +3,7 @@
 	
 	if(ISSET($_POST['save'])){
 		$stud_no = $_POST['stud_no'];
+		$sub_type = $_POST['sub_type'];
 		$file_name = $_FILES['file']['name'];
 		$file_type = $_FILES['file']['type'];
 		$file_temp = $_FILES['file']['tmp_name'];
@@ -13,8 +14,9 @@
 		}
 		
 		if(move_uploaded_file($file_temp, $location)){
-			mysqli_query($conn, "INSERT INTO `storage` VALUES('', '$file_name', '$file_type', '$date', '$stud_no')") or die(mysqli_error());
+			mysqli_query($conn, "INSERT INTO `storage` VALUES('','$sub_type', '$file_name', '$file_type', '$date', '$stud_no')") or die(mysqli_error());
 			header('location: student_profile.php');
 		}
 	}
 ?>
+

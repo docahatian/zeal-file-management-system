@@ -6,10 +6,11 @@
 		$firstname = $_POST['firstname'];
 		$lastname = $_POST['lastname'];
 		$gender = $_POST['gender'];
-		$yrsec = $_POST['year']."".$_POST['section'];
+		$course = $_POST['course'];
+		$status = $_POST['status'];
 		$password = md5($_POST['password']);
 		
-		mysqli_query($conn, "INSERT INTO `student` VALUES('', '$stud_no', '$firstname', '$lastname', '$gender', '$yrsec', '$password')") or die(mysqli_error());
+		mysqli_query($conn, "INSERT INTO `student` VALUES('', '$stud_no', '$firstname', '$lastname', '$gender', '$course','$status', '$password')") or die(mysqli_error());
 		
 		header('location: student.php');
 	}

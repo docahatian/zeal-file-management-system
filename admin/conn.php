@@ -1,5 +1,5 @@
 <?php
-	$conn = mysqli_connect("localhost", "root", "", "zeal_filemanagementdb");
+	$conn = mysqli_connect("localhost", "root", "", "zealtc_filemanagementdb");
 	
 	if(!$conn){
 		die("Error: Failed to connect to database!");

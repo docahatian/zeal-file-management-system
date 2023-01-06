@@ -18,7 +18,8 @@
 					<th>Firstname</th>
 					<th>Lastname</th>
 					<th>Gender</th>
-					<th>Course/Status</th>
+					<th>Course</th>
+					<th>Status</th>
 					<th>Password</th>
 					<th>Action</th>
 				</tr>
@@ -33,7 +34,8 @@
 						<td><?php echo $fetch['firstname']?></td>
 						<td><?php echo $fetch['lastname']?></td>
 						<td><?php echo $fetch['gender']?></td>
-						<td><?php echo $fetch['yr&sec']?></td>
+						<td><?php echo $fetch['course']?></td>
+						<td><?php echo $fetch['status']?></td>
 						<td>********</td>
 						<td><center><button class="btn btn-warning" data-toggle="modal" data-target="#edit_modal<?php echo $fetch['stud_id']?>"><span class="fas fa-user-pen fa-sm"></span> Edit</button> 
 						<button class="btn btn-danger btn-delete" id="<?php echo $fetch['stud_id']?>" type="button"><span class="fas fa-user-minus fa-sm"></span> Delete</button></center></td>
@@ -72,13 +74,13 @@
 							</div>
 							<div class="form-inline">
 								<label>Course</label>
-								<select name="year" class="form-control" required="required">
+								<select name="course" class="form-control" required="required">
 									<option value=""></option>
 									<option value="SMAW NC II">SMAW NC II</option>
 									<option value="Machining NC II">Machining NC II</option>
 								</select>
 								<label>Status</label>
-								<select name="section" class="form-control" required="required">
+								<select name="status" class="form-control" required="required">
 									<option value=""></option>
 									<option value="Pending">Pending</option>
 									<option value="Graduate">Graduate</option>
@@ -156,13 +158,13 @@
 							</div>
 							<div class="form-inline">
 								<label>Course</label>
-								<select name="year" class="form-control" required="required">
+								<select name="course" class="form-control" required="required">
 									<option value=""></option>
 									<option value="SMAW NC II">SMAW NC II</option>
 									<option value="Machining NC II">Machining NC II</option>
 								</select>
 								<label>Status</label>
-								<select name="section" class="form-control" required="required">
+								<select name="status" class="form-control" required="required">
 									<option value=""></option>
 									<option value="Pending">Pending</option>
 									<option value="Graduate">Graduate</option>

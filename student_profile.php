@@ -22,12 +22,30 @@
 				<h4 style="color:#fff;">Student no: <label class="pull-right"><?php echo $fetch['stud_no']?></label></h4>
 				<h4 style="color:#fff;">Name: <label class="pull-right"><?php echo $fetch['firstname']." ".$fetch['lastname']?></label></h4>
 				<h4 style="color:#fff;">Gender: <label class="pull-right"><?php echo $fetch['gender']?></label></h4>
-				<h4 style="color:#fff;">Course: <label class="pull-right"><?php echo $fetch['yr&sec']?></label></h4>
+				<h4 style="color:#fff;">Course: <label class="pull-right"><?php echo $fetch['course']?></label></h4>
+				<h4 style="color:#fff;">Status: <label class="pull-right"><?php echo $fetch['status']?></label></h4>
 				<h3 style="color:#fff;">File To Store</h3>
 				<form method="POST" enctype="multipart/form-data" action="save_file.php">
 					<input type="file" name="file" size="4" style="background-color:#fff;" required="required" />
 					<br />
 					<input type="hidden" name="stud_no" value="<?php echo $fetch['stud_no']?>"/>
+
+				
+                   <!--Added Section for checkbox  ------->
+			 <input type="radio" name="sub_type" id="registration " value="Registration" checked>
+            <label for="registration">Registration</label><br>
+            <input type="radio" name="sub_type" id="trainee" value="Trainee">
+            <label for="trainee">Trainee</label><br>
+            <input type="radio" name="sub_type" id="graduate" value="Graduate">
+            <label for="graduate">Graduate</label><br>
+
+               <!--Added Section for checkbox  ------->
+
+
+
+
+
+
 					<button class="btn btn-success btn-sm" name="save"><span class="glyphicon glyphicon-plus"></span> Add File</button>
 				</form>
 				<br style="clear:both;"/>
@@ -42,6 +60,7 @@
 				<table id="table" class="table table-bordered">
 					<thead>
 						<tr>
+						    <th>File Category</th>
 							<th>Filename</th>
 							<th>File Type</th>
 							<th>Date Uploaded</th>
@@ -56,6 +75,7 @@
 						?>
 						<tr class="del_file<?php echo $fetch['store_id']?>">
 							<td><?php echo substr($fetch['filename'], 0 ,30)."..."?></td>
+		                    <td><?php echo $fetch['sub_type']?></td>
 							<td><?php echo $fetch['file_type']?></td>
 							<td><?php echo $fetch['date_uploaded']?></td>
 							<td><a href="download.php?store_id=<?php echo $fetch['store_id']?>" class="btn btn-success"><span class="fa-solid fa-download fa-xs"></span> Download</a> | <button class="btn btn-danger btn_remove" type="button" id="<?php echo $fetch['store_id']?>"><span class="glyphicon glyphicon-trash"></span> Remove</button></td>
