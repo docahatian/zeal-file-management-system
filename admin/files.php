@@ -16,6 +16,7 @@
 						<tr>
 							
 							<th>File Category</th>
+							<th>File Name</th>
 							<th>File Type</th>
 							<th>Date Uploaded</th>
 							<th>Action</th>
@@ -27,7 +28,7 @@
 							while($fetch = mysqli_fetch_array($query)){
 						?>
 						<tr class="del_file<?php echo $fetch['store_id']?>">
-							
+						     <td><?php echo $fetch['stud_category']?></td>
 							<td><?php echo substr($fetch['filename'], 0 ,30)."..."?></td>
 							<td><?php echo $fetch['file_type']?></td>
 							<td><?php echo $fetch['date_uploaded']?></td>

@@ -32,11 +32,11 @@
 
 				
                    <!--Added Section for checkbox  ------->
-			 <input type="radio" name="sub_type" id="registration " value="Registration" checked>
+			 <input type="radio" name="stud_category" id="registration " value="Registration" checked>
             <label for="registration">Registration</label><br>
-            <input type="radio" name="sub_type" id="trainee" value="Trainee">
+            <input type="radio" name="stud_category" id="trainee" value="Trainee">
             <label for="trainee">Trainee</label><br>
-            <input type="radio" name="sub_type" id="graduate" value="Graduate">
+            <input type="radio" name="stud_category" id="graduate" value="Graduate">
             <label for="graduate">Graduate</label><br>
 
                <!--Added Section for checkbox  ------->
@@ -74,8 +74,8 @@
 							while($fetch = mysqli_fetch_array($query)){
 						?>
 						<tr class="del_file<?php echo $fetch['store_id']?>">
+						    <td><?php echo $fetch['stud_category']?></td>
 							<td><?php echo substr($fetch['filename'], 0 ,30)."..."?></td>
-		                    <td><?php echo $fetch['sub_type']?></td>
 							<td><?php echo $fetch['file_type']?></td>
 							<td><?php echo $fetch['date_uploaded']?></td>
 							<td><a href="download.php?store_id=<?php echo $fetch['store_id']?>" class="btn btn-success"><span class="fa-solid fa-download fa-xs"></span> Download</a> | <button class="btn btn-danger btn_remove" type="button" id="<?php echo $fetch['store_id']?>"><span class="glyphicon glyphicon-trash"></span> Remove</button></td>
