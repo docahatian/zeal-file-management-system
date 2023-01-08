@@ -7,10 +7,10 @@
 		$file_name = $_FILES['file']['name'];
 		$file_type = $_FILES['file']['type'];
 		$file_temp = $_FILES['file']['tmp_name'];
-		$location = "files/".$stud_no."/".$file_name;
+		$location = "files/".$stud_no."/".$sub_type."/".$file_name;
 		$date = date("Y-m-d, h:i A", strtotime("+8 HOURS"));
-		if(!file_exists("files/".$stud_no)){
-			mkdir("files/".$stud_no);
+		if(!file_exists("files/".$stud_no."/".$sub_type)){
+			mkdir("files/".$stud_no."/".$sub_type);
 		}
 		
 		if(move_uploaded_file($file_temp, $location)){
