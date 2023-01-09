@@ -7,7 +7,7 @@ $breakpoint determines at which width the media query breakpoint will take effec
 
   body {
 	
-	/* Full height background-image: "img/back.jpg";   */
+	/* Full height   */
 	height: 100%;
 	background-color: #588ad0;
 	/* Center and scale the image nicely 
@@ -213,7 +213,7 @@ h2 {
 	}
 	
 	#login-form-wrap {
-	  background-color: rgb(52, 29, 227);
+	  background-color: #F0F8FF;
 	  opacity: 0.9 ;
 	  width: 35%;
 	  margin: 30px auto;
@@ -471,6 +471,7 @@ li i {
 
 #services {	
 	background-color:  #d8e6ad;
+	
 	
 }
 
