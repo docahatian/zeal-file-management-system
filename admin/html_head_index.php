@@ -16,7 +16,6 @@
 		 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
          <script  src="function.js"></script>
-		<!-- additional for favicon-->
-		<link rel="icon" type="image/png" href="fav/login.png">
+		
 
 

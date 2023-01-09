@@ -1,6 +1,3 @@
-<!-- 
-Following Tania Ruscia's tutorial on creating your own responsive dropdown navigation bar. https://www.taniarascia.com/responsive-dropdown-navigation-bar/
--->
 <?php 
 				$query = mysqli_query($conn, "SELECT * FROM `user` WHERE `user_id` = '$_SESSION[user]'") or die(mysqli_error());
 				$fetch = mysqli_fetch_array($query);

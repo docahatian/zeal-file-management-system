@@ -1,5 +1,9 @@
 <?php include('html_head_home.php')?>
-	<title>Student File Management System</title>
+
+ <!-- additional for favicon-->
+ <link rel="icon" type="image/png" href="fav/male-student.png">
+
+	<title>Student | ZFMS </title>
 	</head>
 <body>
    <?php include ('nav_home.php')?>

@@ -1,4 +1,8 @@
 <?php include('html_head_home.php')?>
+
+ <!-- additional for favicon-->
+ <link rel="icon" type="image/png" href="fav/google-docs.png">
+
 		<title> Files| Student File Management System</title>
 	</head>
 <body>

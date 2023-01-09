@@ -1,4 +1,8 @@
 <?php include('html_head_index.php')?>
+        
+        <!-- additional for favicon-->
+		<link rel="icon" type="image/png" href="fav/login.png">
+
 		<!--tempate after head page ------->
 		 <title> ZFMS | Admin Log-in </title>  
 		 </head>
@@ -7,6 +11,7 @@
 <body>
     <?php include ('nav.php')?>
 	<?php include('login.php')?>
+
 
 	
 	<div class = "content" >
