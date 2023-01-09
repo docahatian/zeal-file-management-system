@@ -1,6 +1,9 @@
 <?php include('html_head_home.php')?>
+   <!-- additional for favicon-->
+ <link rel="icon" type="image/png" href="fav/home-button.png">
+
 		<!--tempate after head page ------->
-		 <title> ZFMS | Admin System </title>  
+		 <title> ZFMS | Home</title>   
 		 </head>
 		<!--tempate after head page ------->
 <body >
